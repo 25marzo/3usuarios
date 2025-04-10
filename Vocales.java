@@ -17,6 +17,21 @@ public class Vocales {
         cadena = sc.nextLine();
         sc.close();
 //añadir codigo
+ //Recorremos la cadena caracter a caracter
+        for (int x = 0; x < cadena.length(); x++) {
+            //Comprobamos si la letra es una vocal (pasamos a minúsculas todas las letras)
+            switch(cadena.toLowerCase().charAt(x)){
+                //Si dejamos casos abiertos sin break en cualquiera de los que 
+                //entre realizará lo del último que tiene break (u)
+                case 'a':
+                case 'e':
+                case 'i':
+                case 'o':
+                case 'u': contador++; 
+                          break;                    
+            }
+        } 
+
         System.out.println("La palabra "+cadena+" contiene "+contador+" vocales.");
     }
 }
