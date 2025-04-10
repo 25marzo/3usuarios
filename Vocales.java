@@ -17,7 +17,6 @@ public class Vocales {
         cadena = sc.nextLine();
         sc.close();
 //añadir codigo
-//CUANDO SE VA AÑADIR ??
         System.out.println("La palabra "+cadena+" contiene "+contador+" vocales.");
     }
 }
