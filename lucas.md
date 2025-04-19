@@ -7,3 +7,5 @@ LINEA 6
 
 LINEA 8
 LINEA 9
+ESTOY ESCRIBIENDO
+sigo escribiendo tras el stash y pop
