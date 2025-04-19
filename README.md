@@ -4,3 +4,6 @@ Crear y solucionar conflictos.
 comenzamos...
 primer usuario
 Ampliación del proyecto
+CAmbios varios
+Tras realizar modificaciones en lucas.md
+realizar commit en main
